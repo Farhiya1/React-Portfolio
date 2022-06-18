@@ -59,7 +59,7 @@ section {
 }
 
 .nvblack {
-background-color: #1c1d25;
+  background-color: #1c1d25;
   color: white;
   font-size: 40px;
 }
@@ -68,7 +68,7 @@ footer {
   background-color: #1c1d25;
   color: white;
   text-align: center;
-  padding: 80px;
+  padding: 10px;
 }
 
 /* Nav  */
@@ -281,4 +281,75 @@ a {
     background-color: #2b2c38;
     margin: 0ppx;
   }
+}
+
+.nodejs {
+  max-width: 80px;
+  margin-left: 200px;
+}
+
+.techskills {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  margin-left: 20px;
+}
+
+button {
+  background-color: var(--clr-accent);
+  color: white;
+  padding: 12px 20px;
+  border: color black;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+/* Style inputs, select elements and textareas */
+input,
+select,
+textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid (dodgerblue);
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: var(--clr-accent);
+  padding: 20px;
+  margin-left: 10em;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: center;
+  width: 75%;
+  margin-top: 6px;
+  margin-left: 15em;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text {
+  color: black;
 }
