@@ -19,7 +19,8 @@ function Projects () {
           <p class="subtext">
            Using ticket masters and open weather API to allow the user to see events near them and the weather for that day. This is done when user searches by location within the UK.
           </p>
-         
+        
+         <hr></hr>
           <p className="subtext">
             <a
               className="project-link"
@@ -41,7 +42,7 @@ function Projects () {
           </p>
           
           <p class="subtext">
-              
+          <hr />  
             <a
               class="project-link"
               href="https://github.com/Farhiya1/WorkPlanner.git"
