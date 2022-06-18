@@ -1,5 +1,6 @@
 import React from "react";
-import profileShot from "../assets/images/ProfileShot.PNG"
+import profileShot from "../assets/images/ProfileShot.PNG";
+
 
 
 function About () {
@@ -10,7 +11,7 @@ function About () {
           </div>
 
         
-
+       <hr></hr>
       <div class="bio">
         <h2>About Me</h2>
         <p>
@@ -20,7 +21,11 @@ function About () {
        
         
           <section>
+        
            <button class="btn"> <a className="cv-link" href= "https://drive.google.com/file/d/1ZzHUpFU-ebJ0XV4Yrhnh8AxMrJZIaTm5/view?usp=sharing">CV </a></button>
+           <br></br>
+          
+       
           </section>
         </p>
       </div>
