@@ -4,7 +4,9 @@ function Footer () {
     return (
         <footer id="contact-me">
         <h2>Contact me</h2>
-     <p>farhiya.i.mahamud@gmail.com</p>
+        <p>farhiya.i.mahamud@gmail.com</p>
+
+
    </footer>
 
     )
