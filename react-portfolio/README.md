@@ -71,13 +71,13 @@ https://farhiya1.github.io/React-Portfolio/
 
 ## Screenshots
 
-1. ![]()
+1. ![Homepage](./src/assets/images/homepage.png)
 
-2. ![]()
+2. ![About me page](./src/assets/images/aboutme.png)
 
-3. ![]()
+3. ![Projects page](./src/assets/images/projects.png)
 
-4. ![](/)
+4. ![Contact me/footer](./src//assets/images/contactandfooter.png)
 
 ## References
 
