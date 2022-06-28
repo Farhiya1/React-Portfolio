@@ -69,6 +69,10 @@ I used the following technologies in the app:
 
 https://farhiya1.github.io/React-Portfolio/
 
+## Github Repository
+
+https://github.com/Farhiya1/React-Portfolio.git
+
 ## Screenshots
 
 1. ![Homepage](./src/assets/images/homepage.png)
